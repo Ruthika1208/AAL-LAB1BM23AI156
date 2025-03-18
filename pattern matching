@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	char str[]="nobody_noticed him";
+	char pat[]="him";
+	int i,j,strlen=0,patlen=0;
+	while (str[strlen]!='\0')
+	{
+		strlen++;
+	}
+	while (pat[patlen]!='\0')
+	{
+		patlen++;
+	}
+	for (i=0;i<=strlen-patlen;i++)
+	{
+		j=0;
+		while(j < patlen && str[i+j]==pat[j])
+		{
+			j++;
+			if (j==patlen)
+			{
+				printf("pattern is found at %d",i);
+			}
+		}
+		
+		
+	}
+}
