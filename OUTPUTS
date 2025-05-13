@@ -18,6 +18,28 @@ Topological sort order:
 5 4 3 2 1
 
 
+#prims algorithm
+output:
+Edge    Weight
+0 - 1       2 
+1 - 2       3 
+0 - 3       6 
+1 - 4       5 
+Total Weight of MST: 16
+
+
+
+#kruskal's algorithm
+output:
+Edge    Weight
+2 - 3       4
+0 - 3       5
+0 - 1      10
+
+
+
+
+
 
 
 
