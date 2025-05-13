@@ -46,3 +46,18 @@ void solveNQueens(int col, int *solutionCount) {
         printSolution(*solutionCount);
         return;
     }
+
+
+
+
+output
+Arrangement 1
+..Q.
+Q...
+...Q
+.Q..
+Arrangement 2
+.Q..
+...Q
+Q...
+..Q
